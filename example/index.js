@@ -8,7 +8,7 @@ const paystackInstance = new Paystack(process.env.SECRET_KEY)
 const testMethods = async () => {
   // can pass bodyParams, pathParams, queryParams
   const bodyParams = {
-    email: "ezrqnkemboi@gmail.com",
+    email: "nickey968@gmail.com",
     amount: 20000,
     currency: "ZAR"
   }
